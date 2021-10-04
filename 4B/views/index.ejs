@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <div class="row">
+      
+      <% data.forEach(e => { %>
+        
+        <div class="col-sm-3 mt-5">
+          
+           <div class="card">
+                <img src="img/<%= e.image %> " class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><%= e.name %> </h5>
+                  <p><%= e.role %> </p>
+                   
+                  
+                  
+                  <a href="/delete/<%= e.id %> " class="btn btn-danger mb-3">delete</a>
+                  <a href="/update/<%= e.id %> " class="btn btn-primary">update role</a>
+                </div>
+            </div>
+          
+            
+        </div>
+        <% }) %>
+        
+    </div>
+</div>
+
