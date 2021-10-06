@@ -5,7 +5,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root', //your usrnm
     password: 'pandawa5',//your pw
-    database: 'halo'
+    database: 'belajar_mysql'
     
 })
 
