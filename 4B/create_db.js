@@ -47,4 +47,4 @@ const createTableRole = () => {
 // createTableHero()
 // createTableRole()
 
-// createDb('halo')
+// createDb('belajar_mysql')
